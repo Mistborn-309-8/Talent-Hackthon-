@@ -1,0 +1,113 @@
+// data.json
+[
+   {
+      "id":1,  //Saludo
+      "text":"Hola, soy a quien buscas por ayuda o consejos. ¿En qué te puedo ayudar? Te puedo dar un consejo de salud si me pides un 'consejo' o 'ayuda' para sabes mas sobre como usar la aplicación",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":"",
+      "option1":"hola",
+      "option1_nextMessageId":2,
+      "option2":"consejo",
+      "option2_nextMessageId":8,
+      "option3":"ayuda",
+      "option3_nextMessageId":9,
+      "option4":"bye",
+      "option4_nextMessageId":7,
+      "option5":"adios",
+      "option5_nextMessageId":7
+   },
+   {             //Contestación de hola
+      "id":2,
+      "text":"¿Qué tal? ¿Cómo te sientes?",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":"",
+      "option1":"bien",
+      "option1_nextMessageId":4,
+      "option2":"mal",
+      "option2_nextMessageId":3,
+      "option3":"nose",
+      "option3_nextMessageId":5,
+      "option4":"no se",
+      "option4_nextMessageId":5
+   },
+   {           //contestacion de sentirse mal
+      "id":3,
+      "text":"Dime tienes sintomas como tos, fiebre y malestar? o es otra cosa?",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":"",
+      "option1":"si",
+      "option1_nextMessageId":4,
+      "option2":"no",
+      "option2_nextMessageId":4,
+      "option3":"otra",
+      "option3_nextMessageId":5,
+      "option4":"otra cosa",
+      "option4_nextMessageId":5
+   },
+   {           //contestacion de sentirse bien
+      "id":4,
+      "text":"Me alegro que estes bien y te puedo dar mas recomendaciones para seguir sintiendote bien",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":"",
+      "option1":"si",
+      "option1_nextMessageId":8,
+      "option2":"no",
+      "option2_nextMessageId":6
+   },
+   {           //contestacion de sentirse no se
+      "id":5,
+      "text":" Si necesitas ayuda puedes buscar a un profesional para que te ayude a identificar el por qué no sabes como te sientes",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":6
+   },
+   {              //hacer otra pregunta
+      "id":6,
+      "text":"Estoy para ayudarte, y dar buenos consejos. ¿Qué puedo hacer por ti? Te puedo dar un consejo de salud si me pides un 'consejo' o 'ayuda' para sabes mas sobre como usar la aplicación. Si quieres 'salir' para dejar de hablar lo entendería",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":"",
+      "option1":"no",
+      "option1_nextMessageId":7,
+      "option2":"salir",
+      "option2_nextMessageId":7,
+      "option3":"bye",
+      "option3_nextMessageId":7,
+      "option4":"adios",
+      "option4_nextMessageId":7,
+      "option5":"consejo",
+      "option5_nextMessageId":8,
+      "option6":"sintomas",
+      "option6_nextMessageId":9
+   },
+   {            //salir
+      "id":7,
+      "text":"Gracias por hablar, me encanta por ser util. Cuidate mucho.",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":""
+   },
+   {           //contestacion de cosejos
+      "id":8,
+      "text":" Te recomiendo que te quedes en casa lo máximo posible, que matengas el distanciamiento social. Lavarte las manos con frecuencia.  Tose cubriéndote con el codo. Y ve al medico si tienes síntomas",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":6
+   },
+   {           //contestacion de ayuda
+      "id":9,
+      "text":"Si quieres ayuda puedes dejarle un mensajes a los desarrolladores por correo 'mistborn309.8@gmail.com'",
+      "messageType":"Question",
+      "imageUrl":"",
+      "nextMessageId":6
+   },
+
+
+
+
+   // ...
+]

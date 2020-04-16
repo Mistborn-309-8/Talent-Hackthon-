@@ -1,0 +1,21 @@
+{
+  " name " : " Leaflet.awesome-markers " ,
+  " versión " : " 2.0.2 " ,
+  " página de inicio " : " https://github.com/lvoogdt/Leaflet.awesome-markers " ,
+  " autores " : [
+    " Lennard Voogdt <lvoogdt@gmail.com> "
+  ],
+  " description " : " Coloridos marcadores icónicos y a prueba de retina para Leaflet, basados ​​en los iconos Glyphicons / Font-Awesome " ,
+  " principal " : [
+  	" dist / leaflet.awesome-markers.css " ,
+  	" dist / leaflet.awesome-markers.js "
+  ],
+  " licencia " : " MIT " ,
+  " ignorar " : [
+    " ** /. * " ,
+    " node_modules " ,
+    " bower_components " ,
+    " prueba " ,
+    " pruebas "
+  ]
+}
